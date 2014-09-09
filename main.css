@@ -1,0 +1,10 @@
+#errorHandler_icon{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14pt;
+    background: red;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 3px;
+}

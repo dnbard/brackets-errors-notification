@@ -1,0 +1,13 @@
+{
+    "name": "dnbard.errors-notification",
+    "title": "Errors Notification",
+    "description": "Show special icon when an error happens inside of Brackets IDE. Usefull for Brackets Extensions Developers.",
+    "homepage": "https://github.com/dnbard/brackets-documents-toolbar",
+    "version": "0.1.0",
+    "author": "Alex Bardanov <dnbard@gmail.com>",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.32.0"
+    },
+    "keywords": ["error","notification", "icon", "event"]
+}
