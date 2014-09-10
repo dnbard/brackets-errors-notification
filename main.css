@@ -8,3 +8,17 @@
     overflow: hidden;
     border-radius: 3px;
 }
+
+.ext_error-explorer .ext-error > * {
+    margin: 0 4px;
+}
+
+.ext_error-explorer .ext-error_timestamp{
+    border-left: 2px solid red;
+    padding-left: 2px;
+}
+
+.ext_error-explorer .ext-error_url{
+    border-bottom: 1px dotted;
+    cursor: help;
+}

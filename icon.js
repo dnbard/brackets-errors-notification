@@ -13,6 +13,15 @@ define(function(require, exports, module){
         icon.show();
     }
 
+    function click(handler){
+        if (icon === null){
+            throw new Error('Icon is not initialized');
+        }
+
+        icon.on('click', handler);
+    }
+
     exports.init = init;
     exports.show = show;
+    exports.click = click;
 });
